@@ -1,0 +1,32 @@
+{
+  "name": "qazihomeapp",
+  "version": "1.0.0",
+  "description": "A web app for the Qazi's Home. It will display relevant infomration regarding our smart devices / hardware connected on our netowrk as well as live feed from cameras. ",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "latest",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "^5.2.0",
+    "livecam": "^0.2.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "serve-favicon": "^2.5.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saad Qazi",
+  "license": "MIT"
+}

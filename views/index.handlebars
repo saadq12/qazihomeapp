@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<body>
+  <h2 class="page-header text-center">Dashboard</h2>
+  <p class="text-center">Welcome to your dashboard, {{user.username}}.</p>
+  <br/>
+
+  <!-- Weather & Traffic Section-->
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <h5 class="card-header"><i class="fas fa-sun"></i> Weather</h5>
+        <div class="card-body">
+          <iframe id="forecast_embed" frameborder="0" height="245" width="100%" src="//forecast.io/embed/#lat=43.5934710&lon=-79.6880720&name=Mississuaga&color=#00aaff&font=Georgia&units=ca"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <h5 class="card-header"><i class="fas fa-car"></i> Traffic</h5>
+        <div class="card-body">
+          <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae neque ante. Suspendisse potenti. Cras vulputate, metus at accumsan auctor, nisl justo commodo nisi, quis
+            sagittis sapien dolor ut massa. Etiam aliquet, nisi vitae euismod congue, elit quam rhoncus ligula, rhoncus interdum mi dolor ut leo. In varius id arcu eget feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing
+            elit.consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+
+
+  <!-- NEST & August Status Section-->
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <h5 class="card-header"><i class="fas fa-thermometer-empty"></i> Nest Thermostat Status</h5>
+        <div class="row">
+          <div class="col-sm">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae neque ante. Suspendisse potenti. Cras vulputate, metus at accumsan auctor, nisl justo commodo nisi,
+              quis sagittis sapien dolor ut massa. Etiam aliquet, nisi vitae euismod congue, elit quam rhoncus ligula, rhoncus interdum mi dolor ut leo. In varius id arcu eget feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur
+              adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6">
+      <div class="card">
+        <h5 class="card-header"><i class="fas fa-lock"></i> August Lock Status </h5>
+        <div class="row">
+          <div class="col-sm">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae neque ante. Suspendisse potenti. Cras vulputate, metus at accumsan auctor, nisl justo commodo nisi,
+              quis sagittis sapien dolor ut massa. Etiam aliquet, nisi vitae euismod congue, elit quam rhoncus ligula, rhoncus interdum mi dolor ut leo. In varius id arcu eget feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur
+              adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <br/>
+
+  <!-- Cam/Video Stream Section-->
+  <div class="card">
+    <div class="row">
+      <div class="col-sm">
+        <h5 class="card-header">Video Stream</h5>
+        <div class="embed-responsive embed-responsive-16by9">
+          <video width="400" height="300" controls>
+              <source src='/videos/Avxwall-PlusController.mp4' type="video/mp4">
+              </video>
+        </div>
+      </div>
+      <div class="col-sm">
+        <h5 class="card-header">Video Stream 2</h5> One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
