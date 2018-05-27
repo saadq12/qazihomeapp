@@ -6,29 +6,29 @@ var LocalStrategy = require ('passport-local').Strategy;
 
 var User = require('../models/user');
 
- const LiveCam = require('livecam');
- const webcam_server = new LiveCam
-({
-
-			//address and port of the webcam UI
-			'ui_addr' : '127.0.0.1',
-			'ui_port' : 11000,
-
-			///
-			'broadcast_addr' : '127.0.0.1',
-			'broadcast_port' : 12000,
-
-			////
-			'gst_tcp_addr' : '127.0.0.1',
-			'gst_tcp_port' : 10000,
-
-
-			//address
-			'start':function(){
- 				console.log('webcamserver started?');
- 			}
-
- });
+//  const LiveCam = require('livecam');
+//  const webcam_server = new LiveCam
+// ({
+//
+// 			//address and port of the webcam UI
+// 			'ui_addr' : '127.0.0.1',
+// 			'ui_port' : 11000,
+//
+// 			///
+// 			'broadcast_addr' : '127.0.0.1',
+// 			'broadcast_port' : 12000,
+//
+// 			////
+// 			'gst_tcp_addr' : '127.0.0.1',
+// 			'gst_tcp_port' : 10000,
+//
+//
+// 			//address
+// 			'start':function(){
+//  				console.log('webcamserver started?');
+//  			}
+//
+//  });
 
 //webcam_server.broadcast();
 
